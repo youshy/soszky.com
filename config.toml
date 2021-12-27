@@ -1,4 +1,20 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = '/'
+languageCode = 'en-gb'
 title = 'Aleksandra Socha Product Designer'
 paginate = 5
+
+[permalinks]
+  posts = "/projects/:title"
+
+[params.linkedin]
+  creator = "Aleksandra Socha"
+  site = "https://www.linkedin.com/in/arturkondas/"
+
+[languages]
+  [languages.en]
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "All Projects"
+        name = "All Projects"
+        url = "/projects"

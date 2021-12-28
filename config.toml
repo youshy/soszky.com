@@ -1,10 +1,15 @@
 baseURL = '/'
 languageCode = 'en-gb'
 title = 'Aleksandra Socha Product Designer'
+theme = "newsroom"
 paginate = 5
 
 [permalinks]
   posts = "/projects/:title"
+
+[params]
+  contentTypeName = "projects"
+  mainSections = ["projects"]
 
 [params.linkedin]
   creator = "Aleksandra Socha"
